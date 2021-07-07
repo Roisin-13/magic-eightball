@@ -1,0 +1,68 @@
+
+* {
+	box-sizing: border-box;
+}
+body {
+	background-color: #33334d;
+}
+/*-------------question box--------------*/
+.textBox {
+	display: block;
+	align-items: center;
+	text-align: center;
+	margin: auto;
+}
+#userQuestion {
+	width: 400px;
+	height: 100px;
+	border: 2px solid white;
+	margin: 50px;
+}
+.typytypy {
+	font-size: 25px;
+}
+/*-------------question box END--------------*/
+/*-------------ball box--------------*/
+.ball {
+	display: block;
+	align-items: center;
+	background-color: #000000;
+  	width: 400px;
+  	height: 400px;
+  	padding: 50px;
+  	border-radius: 200px;
+  	margin: auto;
+}
+.answer {
+	display: block;
+	font-size: 25px;
+	text-align: center;
+	align-self: : center;
+	width: 250px;
+	height: 100px;
+	background-color: none;
+	color: red;
+	margin: auto;
+}
+.white {
+	width: 150px;
+	height: 150px;
+	border-radius: 100px;
+	background-color: white;
+	margin: auto;
+	align-items: center;
+	text-align: center;
+	padding: 20px;
+}
+.eight {
+	font-size: 100px;
+	color: black;
+	margin: auto;
+	align-self: center;
+}
+/*-------------ball box END--------------*/
+
+
+
+
+
