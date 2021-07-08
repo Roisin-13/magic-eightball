@@ -21,6 +21,9 @@ body {
 .typytypy {
 	font-size: 25px;
 }
+.neon {
+	text-shadow: 0 0 4px #ff99ff, 0 0 6px #9999ff;
+}
 /*-------------question box END--------------*/
 /*-------------ball box--------------*/
 .ball {
@@ -32,6 +35,9 @@ body {
   	padding: 50px;
   	border-radius: 200px;
   	margin: auto;
+}
+.glowing {
+	box-shadow: 0 0 20px 10px #ff99ff, 0 0 40px 20px #9999ff;
 }
 .answer {
 	display: block;
