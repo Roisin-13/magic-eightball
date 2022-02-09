@@ -33,3 +33,5 @@ function predictFuture(){
  var txtOutput = document.getElementById("txtOutput").innerHTML = `${randomNumber}`;
   
 }
+
+module.exports = predictFuture;
