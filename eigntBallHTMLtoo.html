@@ -4,51 +4,10 @@
  <head>
  <meta charset = "UTF-8">
  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<!----styling links---->
  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
  <link rel="icon" href="favicon.ico" type="image/x-icon">
  <link rel = "stylesheet" href = "eightBall.css" />
-<!----title---->
  <title>eight ball</title>
-<!--------------------javascript------------------>
- <script type = "text/javascript">
-  function predictFuture(){
-  var userQuestion = document.getElementById("userQuestion");
-  let randomNumber = Math.floor(Math.random() * 8);
-  switch (randomNumber) {
-  case 0:
-    randomNumber = 'It is certain';
-    break;
-  case 1:
-    randomNumber ='It is decidedly so';
-    break;
-  case 2:
-    randomNumber ='Reply hazy try again';
-    break;
-  case 3:
-    randomNumber ='Cannot predict now';
-    break;
-  case 4:
-    randomNumber ='Do not count on it';
-    break;
-  case 5:
-    randomNumber ='My sources say no';
-    break;
-  case 6:
-    randomNumber ='Outlook not so good';
-    break;
-  case 7:
-    randomNumber ='Signs point to yes';
-    break;
-  case 8:
-    randomNumber ='Your Mum';
-    break;
-}
- var txtOutput = document.getElementById("txtOutput").innerHTML = `${randomNumber}`;
-  
-  }
- </script>
-<!--------------------javascript END------------------>
  </head>
 
  <body>
@@ -58,7 +17,7 @@
          <label class="typytypy neon">Type your question: </label><br>
         <input type = "text" id = "userQuestion" /><br>
 
-        <button onclick = "predictFuture()">predict future</button>
+        <button onclick="predictFuture()">predict future</button>
 
         <h2 class="neon">Eight ball answered : </h2>
 </div>
@@ -68,7 +27,7 @@
         <div class="white"><p class="eight">8</p></div>
       </div>
 <!--------the ball--------------->
-
+<script type="text/javascript" src="eightball.js"></script>
  </body>
 </html>
 
